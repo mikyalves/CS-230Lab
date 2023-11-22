@@ -4,6 +4,9 @@ const Card = () => {
   return (
     <div className="cards d-flex justify-content-center align-items-center">
       <div className="row justify-content-around">
+        <h2 style={{fontWeight: 'bold', textAlign: 'left', marginLeft: '15px', marginTop: '15px', }}>
+            Card Components
+        </h2>
 
         <div className="col-md-4 mb-3">
             <div class="card bg-primary text-white" style={{ maxWidth: '18rem', color: 'blue' }}>
