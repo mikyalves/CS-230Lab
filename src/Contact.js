@@ -2,11 +2,11 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className="container" style={{ fontWeight: 'bold' }}>
+    <div className="container" style={{ textAlign: 'center', marginTop: '10px' }}>
       <h2>Contact Us</h2>
-      <form style={{ margin: 'auto' }}>
+      <form style={{ width: '100%', margin: 'auto' }}>
 
-        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'left' }}>
+        <div style={{ display: 'left', flexDirection: 'column', alignItems: 'center', textAlign: 'left', maxWidth: '100%' }}>
             <div className="mb-3">
             <label htmlFor="firstName" className="form-label">First Name</label>
             <input type="text" className="form-control" id="firstName" placeholder="Enter your first name" />

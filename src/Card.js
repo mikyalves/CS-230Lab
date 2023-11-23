@@ -4,7 +4,7 @@ const Card = () => {
   return (
     <div className="cards d-flex justify-content-center align-items-center">
       <div className="row justify-content-around">
-        <h2 style={{fontWeight: 'bold', textAlign: 'left', marginLeft: '15px', marginTop: '15px', }}>
+        <h2 style={{ fontWeight: 'bold', textAlign: 'left', marginLeft: '15px', marginTop: '10px' }}>
             Card Components
         </h2>
 
